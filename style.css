@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+} */
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Bangers', cursive;
+    text-align:center;
+  
+    color:#555;
+    font-family:'Roboto';
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Bangers', cursive;
+  font-size: 90px;
+  color: sienna;
+  margin-top: auto;
+  
+}
+h5 {
+  font-size: 90%;
+}
+
+/* .about {
+    margin: 150px;
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient(45deg, #4CAF50, #2196F3); /* Adjust gradient colors as needed */
+  
+
+
+/* .about:hover {
+    transform: scale(1.5); /* Add a slight scale effect on hover */
+
+
+
+
+
+
+/* button {
+  margin-top: 10%;
+  
+  width: 10px;
+  height: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+  justify-content: center;
+  display: flex;
+  
+} */
+
+
+html {
+    height: 100%;
+    /* max-height: 600px; */
+    width: 1000px;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:   
+      url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+      url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+      url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+      url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      2500px,
+      800px,
+      500px 200px,
+      1000px,
+      400px 260px;
+    animation: 50s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+
+    .photo {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    display: grid;
+    border: 20%;
+    cursor: pointer;
+}
+
+    .photo:hover {
+       transform: scale(1.2); 
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+      
+        background-color: white;
+        padding: 6rem;
+        border-radius: 5px;
+        box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+        z-index: 10;
+      }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        backdrop-filter: blur(3px);
+        z-index: 5;
+      }
+
+      h1 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 30px;
+      }
+
+      a {
+        font-size: 30px;
+      }
+
+      @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+div:first-of-type {   
+  animation: showup 7s infinite;
+}
+
+
+div:last-of-type span {
+  margin-left:-355px;
+  animation: slidein 7s infinite;
+}
+
+span {
+    font-size: larger;
+    color: beige;
+}
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
